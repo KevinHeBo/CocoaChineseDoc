@@ -1,3 +1,47 @@
-TODO: 需要介绍如何使用这个系统
+1、什么是Cocoa中文文档翻译计划？
+  
+  “Cocoa中文文档翻译计划”是 Tiny4Cocoa社区 (http://tiny4cocoa.com)发起的社区活动，目标是集合广大Cocoa开发爱好者的力量，把iOS/Mac的官方手册翻译成中文版本。
+    
+2、如何使用“Cocoa中文文档翻译计划”的翻译结果？
+  
+  方法1（简单）：
+  你可以我们的官方网站（http://tiny4cocoa.com/forum-25-1.html）中的置顶下载贴中下载压缩好的文件，也可以在我们的项目托管网站 （https://github.com/tinyfool/CocoaChineseDoc）下载压缩好的文件。解压到任意你喜欢的文件夹，你应该可以看到一个叫做“com.tiny4cocoa.chinese.iOS.docset”的文件夹。把它复制到 /Library/Developer/Documentation/DocSets （命令行下需要sudo权限，Finder需要登录用户有管理员权限）下即可。
+  
+  方法2（建议）：
+  
+  如果你稍微懂点Git下载的方法是我们强烈建议的，在命令行下选择一个你喜欢目录，
+  敲入
+  
+    git clone git://github.com/tinyfool/CocoaChineseDoc.git
+  
+  这样git就会自动帮你下载最新的翻译结果放在CocoaChineseDoc目录内，隔一段时间在这个目录内执行 git pull 就可以保证你持续获得最新的更新。
+  
+  然后，不要直接把文件复制过去，在/Library/Developer/Documentation/DocSets目录下执行
+  
+    ln -s 源路径/com.tiny4cocoa.chinese.iOS.docset com.tiny4cocoa.chinese.iOS.docset
+    
+  即可。
+  
+  以上两种方法结果是一样的，一旦做好，你关闭然后重新打开Xcode，就会在帮助界面发现，多了一个文档库“iOS中文文档(Tiny4Cocoa社区翻译版)”。
+  
+3、如何加入帮助我们？
 
-要详细
+  欢迎你注册 tiny4cocoa.com 的用户，这样你就可以参与官方网站（http://tiny4cocoa.com/forum-25-1.html）的讨论了。
+  
+  即使没有注册，你可以从项目托管网站 （https://github.com/tinyfool/CocoaChineseDoc）得到全部的翻译结果，开始自己的翻译。
+  
+  我们推荐的流程是这样的：
+  
+    1、注册github，浏览项目托管网站，然后fork这个项目，然后从自己的帐号git clone全部内容。
+    
+    2、请查看翻译分配表，如果你想翻译的部分已经有人在翻译，建议你选择其他的部分。确认好想翻译的部分，请留言，管理员会把你的请求加到计划中。
+    
+    3、进行翻译修改，到达某种程度后，你可以进行pull request。项目管理员收到你的pull request会审核内容是否格式正确，是否是有价值的翻译，如果没有问题，就会把你的翻译合并到主干上去，这样所有clone过主干的用户，git pull以后就会收到你的更新了。
+  
+  如果你不懂git，你也可以参与这个项目，你可以把翻译好的结果Mail给 tinyfool@gmail.com，他会帮你代为提交。
+  
+4、加入这个翻译计划的好处是什么？
+	
+  1、没钱，没名
+  2、首先的好处是，从我的经验来看学习一门比较新的技术，看英文文档是最好的办法。而只看的话，大多数中国人看技术文档的时候效率都很低，都很难深入。但是翻译一遍，往往可以得到很全面的了解，因为你需要一字一句的看，而不是像平常那样一扫而过。
+  3、我们这样一个计划，很可能会达成某种效果，就是说你只翻译了NSData的文档，我只翻译了NSArray的文档，但是大家一起翻译了全部的文档，大家都有中文看了。对大多数即使英文水平很不错的技术人员来说，看中文文档还是更快捷和舒服的，不是么？
