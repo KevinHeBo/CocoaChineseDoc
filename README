@@ -1,11 +1,11 @@
 1、什么是Cocoa中文文档翻译计划？
   
-  “Cocoa中文文档翻译计划”是 Tiny4Cocoa社区 (http://tiny4cocoa.com)发起的社区活动，目标是集合广大Cocoa开发爱好者的力量，把iOS/Mac的官方手册翻译成中文版本。
+  “Cocoa中文文档翻译计划”是 Tiny4Cocoa社区( http://tiny4cocoa.com )发起的社区活动，目标是集合广大Cocoa开发爱好者的力量，把iOS/Mac的官方手册翻译成中文版本。
     
 2、如何使用“Cocoa中文文档翻译计划”的翻译结果？
   
   方法1（简单）：
-  你可以我们的官方网站（http://tiny4cocoa.com/forum-25-1.html）中的置顶下载贴中下载压缩好的文件，也可以在我们的项目托管网站 （https://github.com/tinyfool/CocoaChineseDoc）下载压缩好的文件。解压到任意你喜欢的文件夹，你应该可以看到一个叫做“com.tiny4cocoa.chinese.iOS.docset”的文件夹。把它复制到 /Library/Developer/Documentation/DocSets （命令行下需要sudo权限，Finder需要登录用户有管理员权限）下即可。
+  你可以我们的官方网站（ http://tiny4cocoa.com/forum-25-1.html ）中的置顶下载贴中下载压缩好的文件，也可以在我们的项目托管网站 （ https://github.com/tinyfool/CocoaChineseDoc ）下载压缩好的文件。解压到任意你喜欢的文件夹，你应该可以看到一个叫做“com.tiny4cocoa.chinese.iOS.docset”的文件夹。把它复制到 /Library/Developer/Documentation/DocSets （命令行下需要sudo权限，Finder需要登录用户有管理员权限）下即可。
   
   方法2（建议）：
   
@@ -26,9 +26,9 @@
   
 3、如何加入帮助我们？
 
-  欢迎你注册 tiny4cocoa.com 的用户，这样你就可以参与官方网站（http://tiny4cocoa.com/forum-25-1.html）的讨论了。
+  欢迎你注册 tiny4cocoa.com 的用户，这样你就可以参与官方网站（ http://tiny4cocoa.com/forum-25-1.html ）的讨论了。
   
-  即使没有注册，你可以从项目托管网站 （https://github.com/tinyfool/CocoaChineseDoc）得到全部的翻译结果，开始自己的翻译。
+  即使没有注册，你可以从项目托管网站 （ https://github.com/tinyfool/CocoaChineseDoc ）得到全部的翻译结果，开始自己的翻译。
   
   我们推荐的流程是这样的：
   
@@ -38,7 +38,7 @@
     
     3、进行翻译修改，到达某种程度后，你可以进行pull request。项目管理员收到你的pull request会审核内容是否格式正确，是否是有价值的翻译，如果没有问题，就会把你的翻译合并到主干上去，这样所有clone过主干的用户，git pull以后就会收到你的更新了。
   
-  如果你不懂git，你也可以参与这个项目，你可以把翻译好的结果Mail给 tinyfool@gmail.com，他会帮你代为提交。
+  如果你不懂git，你也可以参与这个项目，你可以把翻译好的结果Mail给 tinyfool@gmail.com ，他会帮你代为提交。
   
 4、加入这个翻译计划的好处是什么？
 	
